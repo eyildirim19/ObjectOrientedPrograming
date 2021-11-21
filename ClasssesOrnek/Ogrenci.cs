@@ -11,27 +11,27 @@ namespace ClasssesOrnek
     // internal ve public aynı seviyedir. (ikiside geneldir. internal proje içerisinde public her yerde(farklı projelerde) erişilebilir..
     public class Ogrenci
     {
+        // Sınıf üyelerine (genelde fieldlardır) kontrollü erişimi sağlar. sınıf içerisinde işlem yaparken sınıf dışında işlem yaptırılmaz...
         public string adi;
         public float vize;
         public float final;
-
+        private float ortalama; // Encapsülation... 
         // not : sınıf üyesi fieldlara sınıf seviyesinde erişilemez..üyelere erişmek için metot veya property kullanılmalıdır..
         //public float ortalama = vize * 0.4f + final * 0.6f;
 
         public float Ortalama()
         {
-            return vize * 0.4f + final * 0.6f;
+            ortalama = vize * 0.4f + final * 0.6f;
+            return ortalama;
         }
 
-        public string HarfNot(float deger)
+        public string HarfNot()
         {
-            float ort = deger;
-
-            if (ort >= 80 && ort < 100)
+            if (ortalama >= 80 && ortalama < 100)
                 return "AA";
-            else if (ort > 60 && ort < 80)
+            else if (ortalama > 60 && ortalama < 80)
                 return "BB";
-            else if (ort >= 40 && ort < 60)
+            else if (ortalama >= 40 && ortalama < 60)
                 return "CC";
             else
                 return "FF";
