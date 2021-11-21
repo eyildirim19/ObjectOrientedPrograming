@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classses", "Classses\Classs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasssesOrnek", "ClasssesOrnek\ClasssesOrnek.csproj", "{4F72C2EA-30D8-4412-A353-591FDCEA2C0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Property", "Property\Property.csproj", "{66CF93F9-5CEE-48FF-98AA-6F09B5002760}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4F72C2EA-30D8-4412-A353-591FDCEA2C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F72C2EA-30D8-4412-A353-591FDCEA2C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F72C2EA-30D8-4412-A353-591FDCEA2C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CF93F9-5CEE-48FF-98AA-6F09B5002760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CF93F9-5CEE-48FF-98AA-6F09B5002760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CF93F9-5CEE-48FF-98AA-6F09B5002760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CF93F9-5CEE-48FF-98AA-6F09B5002760}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
