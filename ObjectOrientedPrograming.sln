@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyTekrar", "PropertyT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyTekrar2", "PropertyTekrar2\PropertyTekrar2.csproj", "{DA9F32D2-CAED-4753-B580-F02A3B3272C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{13E9646C-C72F-4C45-8AB1-D93C827C0103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorsOrnek", "ConstructorsOrnek\ConstructorsOrnek.csproj", "{43539F9B-36F9-4F30-B725-0EDFAFBE8579}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{DA9F32D2-CAED-4753-B580-F02A3B3272C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA9F32D2-CAED-4753-B580-F02A3B3272C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA9F32D2-CAED-4753-B580-F02A3B3272C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E9646C-C72F-4C45-8AB1-D93C827C0103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E9646C-C72F-4C45-8AB1-D93C827C0103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E9646C-C72F-4C45-8AB1-D93C827C0103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E9646C-C72F-4C45-8AB1-D93C827C0103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43539F9B-36F9-4F30-B725-0EDFAFBE8579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43539F9B-36F9-4F30-B725-0EDFAFBE8579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43539F9B-36F9-4F30-B725-0EDFAFBE8579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43539F9B-36F9-4F30-B725-0EDFAFBE8579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
