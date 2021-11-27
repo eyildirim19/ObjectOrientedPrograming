@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classses", "Classses\Classses.csproj", "{72275139-78F9-42AA-BFCC-DE24A00E052D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classses", "Classses\Classses.csproj", "{72275139-78F9-42AA-BFCC-DE24A00E052D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasssesOrnek", "ClasssesOrnek\ClasssesOrnek.csproj", "{4F72C2EA-30D8-4412-A353-591FDCEA2C0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasssesOrnek", "ClasssesOrnek\ClasssesOrnek.csproj", "{4F72C2EA-30D8-4412-A353-591FDCEA2C0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Property", "Property\Property.csproj", "{66CF93F9-5CEE-48FF-98AA-6F09B5002760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Property", "Property\Property.csproj", "{66CF93F9-5CEE-48FF-98AA-6F09B5002760}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasssesTekrar", "ClasssesTekrar\ClasssesTekrar.csproj", "{F369BBC8-7DCE-482F-A66E-727F116BBD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyTekrar", "PropertyTekrar\PropertyTekrar.csproj", "{77115FA4-3D69-43E6-8A2A-0281B7549C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyTekrar2", "PropertyTekrar2\PropertyTekrar2.csproj", "{DA9F32D2-CAED-4753-B580-F02A3B3272C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{66CF93F9-5CEE-48FF-98AA-6F09B5002760}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66CF93F9-5CEE-48FF-98AA-6F09B5002760}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66CF93F9-5CEE-48FF-98AA-6F09B5002760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F369BBC8-7DCE-482F-A66E-727F116BBD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F369BBC8-7DCE-482F-A66E-727F116BBD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F369BBC8-7DCE-482F-A66E-727F116BBD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F369BBC8-7DCE-482F-A66E-727F116BBD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77115FA4-3D69-43E6-8A2A-0281B7549C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77115FA4-3D69-43E6-8A2A-0281B7549C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77115FA4-3D69-43E6-8A2A-0281B7549C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77115FA4-3D69-43E6-8A2A-0281B7549C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9F32D2-CAED-4753-B580-F02A3B3272C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9F32D2-CAED-4753-B580-F02A3B3272C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9F32D2-CAED-4753-B580-F02A3B3272C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9F32D2-CAED-4753-B580-F02A3B3272C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
