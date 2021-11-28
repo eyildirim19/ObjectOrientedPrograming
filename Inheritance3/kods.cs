@@ -24,5 +24,38 @@ namespace Inheritance3
     {
         public float YukKapasitesi { get; set; }
     }
+
+    public class AracIslemleri
+    {
+        public AracIslemleri(Arac[] araclar) // arac dizisi ister, gelen diziye üyeye atar...
+        {
+            aracs = araclar;
+        }
+
+        private Arac[] aracs { get; set; }
+
+
+        public void BilgiGoster()
+        {
+            foreach (var item in aracs)
+            {
+                Console.WriteLine(item.Marka);
+                Console.WriteLine(item.Model);
+                Console.WriteLine(item.Yakit);
+
+                if (item is Kamyon)
+                {
+                    Kamyon k = (Kamyon)item; // item'İ kamyon olarak çıkart
+                    Console.WriteLine(k.YukKapasitesi);
+                }
+                else if (item is Otomobil)
+                {
+                    Otomobil o = (Otomobil)item;
+                    Console.WriteLine(o.IsHususi);
+                }
+            }
+        }
+    }
+
 }
 
