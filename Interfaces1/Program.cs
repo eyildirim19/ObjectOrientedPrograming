@@ -8,6 +8,8 @@ namespace Interfaces1
         {
             Console.WriteLine("Interface!");
 
+            #region tanim
+
 
             // OOP'nin bütün yaklaşımları classları daha etkili kullanmak, kod tekrarını azaltmak belirli prensiplere göre kod yazmaktır...
 
@@ -22,7 +24,7 @@ namespace Interfaces1
             // interfaceler projemize sağ tık yapıp add => new item ile gelen pencereden Interface sablonu seçilerek eklenir
 
             // Not : interface isimleri büyük I ile başlar. 
-
+            #endregion
             Ogrenci ogr = new Ogrenci();
             ogr.Yas = 24;
             ogr.Ad = "Furkan";
@@ -35,12 +37,32 @@ namespace Interfaces1
             ogretmen.Yas = 33;
             ogretmen.Ad = "Ekrem";
             ogretmen.SoyAd = "YILDırım";
+            ogretmen.Maas = 2;
 
             Console.WriteLine(ogretmen.FullAdd);
             Console.WriteLine(ogretmen.DogumYili);
-            
+            Console.WriteLine(ogretmen.IsyeriAdresi());
+
+            SatisDanismani danisman = new SatisDanismani();
+            danisman.Ad = "Erhan";
+            danisman.SoyAd = "Denem";
+            danisman.Maas = 1;
+
+            Console.WriteLine(danisman.FullAdd);
+            Console.WriteLine(danisman.IsyeriAdresi());
+
+            //  
+            AdressGoster(ogretmen);
+            AdressGoster(danisman);
+
 
             Console.ReadKey();
+        }
+
+        static void AdressGoster(ICalisan calisan)
+        {
+            Console.WriteLine(calisan.Maas);
+            Console.WriteLine(calisan.IsyeriAdresi());
         }
     }
 }
