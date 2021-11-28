@@ -16,6 +16,9 @@ namespace Inheritances
             // Multiple Inherince konularını barındırır..
 
 
+            // i 
+
+
             Ogrenci ogr = new Ogrenci();
             ogr.Adi = "Furkan";
             ogr.Yasi = 24;

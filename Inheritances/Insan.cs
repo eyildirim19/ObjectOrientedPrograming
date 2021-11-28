@@ -8,11 +8,11 @@ namespace Inheritances
 {
     public class Insan
     {
-
         public string Adi { get; set; }
 
         public byte Yasi { get; set; }
 
+        public char Cinsiyet { get; set; }
 
     }
 }
