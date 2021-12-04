@@ -11,27 +11,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Property", "Property\Proper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasssesTekrar", "ClasssesTekrar\ClasssesTekrar.csproj", "{F369BBC8-7DCE-482F-A66E-727F116BBD64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyTekrar", "PropertyTekrar\PropertyTekrar.csproj", "{77115FA4-3D69-43E6-8A2A-0281B7549C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyTekrar", "PropertyTekrar\PropertyTekrar.csproj", "{77115FA4-3D69-43E6-8A2A-0281B7549C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyTekrar2", "PropertyTekrar2\PropertyTekrar2.csproj", "{DA9F32D2-CAED-4753-B580-F02A3B3272C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyTekrar2", "PropertyTekrar2\PropertyTekrar2.csproj", "{DA9F32D2-CAED-4753-B580-F02A3B3272C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{13E9646C-C72F-4C45-8AB1-D93C827C0103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{13E9646C-C72F-4C45-8AB1-D93C827C0103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorsOrnek", "ConstructorsOrnek\ConstructorsOrnek.csproj", "{43539F9B-36F9-4F30-B725-0EDFAFBE8579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorsOrnek", "ConstructorsOrnek\ConstructorsOrnek.csproj", "{43539F9B-36F9-4F30-B725-0EDFAFBE8579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritances", "Inheritances\Inheritances.csproj", "{9EA4D748-1F4B-4EBE-9979-76C206E96C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritances", "Inheritances\Inheritances.csproj", "{9EA4D748-1F4B-4EBE-9979-76C206E96C04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance2", "Inheritance2\Inheritance2.csproj", "{C627FB1B-7222-4166-BC55-E3D34951D579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance2", "Inheritance2\Inheritance2.csproj", "{C627FB1B-7222-4166-BC55-E3D34951D579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance3", "Inheritance3\Inheritance3.csproj", "{C43B7D1B-3AA6-49B0-91AA-9F28B4F479EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance3", "Inheritance3\Inheritance3.csproj", "{C43B7D1B-3AA6-49B0-91AA-9F28B4F479EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassess", "AbstractClassess\AbstractClassess.csproj", "{EE80B29B-D8EC-4AEA-912E-CBAABA4277E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassess", "AbstractClassess\AbstractClassess.csproj", "{EE80B29B-D8EC-4AEA-912E-CBAABA4277E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poliymorphism", "Poliymorphism\Poliymorphism.csproj", "{E2581071-FB2B-40E6-96C8-BF03D7295713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poliymorphism", "Poliymorphism\Poliymorphism.csproj", "{E2581071-FB2B-40E6-96C8-BF03D7295713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poliymorphism2", "Poliymorphism2\Poliymorphism2.csproj", "{3BD86671-411F-4198-B4AD-D06B936C0FC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poliymorphism2", "Poliymorphism2\Poliymorphism2.csproj", "{3BD86671-411F-4198-B4AD-D06B936C0FC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces1", "Interfaces1\Interfaces1.csproj", "{2C1CF2B7-F678-4C5C-97DB-62051F619EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces1", "Interfaces1\Interfaces1.csproj", "{2C1CF2B7-F678-4C5C-97DB-62051F619EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces2", "Interface3\Interfaces2.csproj", "{DD429741-B9CE-4454-A94C-8383C7CC1A15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{2C1CF2B7-F678-4C5C-97DB-62051F619EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C1CF2B7-F678-4C5C-97DB-62051F619EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C1CF2B7-F678-4C5C-97DB-62051F619EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD429741-B9CE-4454-A94C-8383C7CC1A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD429741-B9CE-4454-A94C-8383C7CC1A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD429741-B9CE-4454-A94C-8383C7CC1A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD429741-B9CE-4454-A94C-8383C7CC1A15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
